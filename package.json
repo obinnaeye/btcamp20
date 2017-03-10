@@ -1,0 +1,22 @@
+{
+  "name": "bt20-clinic",
+  "version": "1.0.0",
+  "description": "My self clinic exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinnaeye/bootcamp20.git"
+  },
+  "author": "Nnenanya Obinna K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obinnaeye/bootcamp20/issues"
+  },
+  "homepage": "https://github.com/obinnaeye/bootcamp20#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
