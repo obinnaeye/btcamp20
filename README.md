@@ -5,3 +5,7 @@ This is Day0 Andela Bootcamp Exercise
 2. fizzBuzz is a function to checks if a number is divible by 3, 5, both 3 and 5 or none.
 
 3. aritGeo is a function that checks if a given array is an arithmetic progression, geometric progression or none.
+
+Just run  'npm install' to get started
+
+The jasmine test is there your test casese.
