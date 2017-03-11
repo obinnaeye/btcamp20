@@ -63,7 +63,7 @@
             });
     });
 
-  });
+  }); 
 
   describe("Fizz Buzz tests ", function() {
     describe("should return an error message for an invalid/no parameter", function(){
