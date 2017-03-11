@@ -61,10 +61,8 @@
             it('should return [0] for [0]', function () {
                 expect(findMinMax([0])).toEqual([0]);
             });
-        });
+    });
 
-  });
-
-  
+  }); 
 
 })();
