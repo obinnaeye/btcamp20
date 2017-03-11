@@ -11,19 +11,19 @@
     describe('Should throw error for invalid/no input', function () {
 
       it('should accept only an array', function () {
-        expect(findMinMax('[1, 2, 3, 4]')).toThrow(new Error("Invalid input! Input should be an array."));
+        expect(findMinMax('[1, 2, 3, 4]')).toEqual("Invalid input! Input should be an array.");
       });
 
       it('should accept array of numbers', function () {
-        expect(findMinMax([3, 6, "8"])).toThrow(new Error("Invalid input! Input should be an array of numbers."));
+        expect(findMinMax([3, 6, "8"])).toEqual("Invalid input! Input should be an array of numbers.");
       });
 
       it('should accept array of numbers', function () {
-        expect(findMinMax(6)).toThrow(new Error("Invalid input! Input should be an array."));
+        expect(findMinMax(6)).toEqual("Invalid input! Input should be an array.");
       });
 
       it('should accept a parameter', function () {
-        expect(findMinMax()).toThrow(new Error("No parameter! findMinMax accepts an array of numbers as the only parameter."));
+        expect(findMinMax()).toEqual("No parameter! findMinMax accepts an array of numbers as the only parameter.");
       });
     });
 
