@@ -1,5 +1,3 @@
-
-
 module.exports = {
     
     findMinMax : function(arr){
@@ -30,6 +28,67 @@ module.exports = {
                     return false;                    
                 }
                 l--;                
+            }
+            return true;
+        }
+    },
+
+    fizzBuzz : function (num){
+        if (num === undefined){
+            return "No input! fizzBuzz accepts a number as the parameter";
+        }else if(typeof num !== "number"){
+            return "Invalid input! fizzBuzz accepts only a number as the parameter";
+        }else{
+            if(num%3 ===0 && num%5 === 0){
+                return "FizzBuzz";
+            }else if(num % 3 === 0 ){
+                return "Fizz";
+            }else if(num % 5 === 0){
+                return "Buzz";
+            }else{
+                return num;
+            }
+        }
+    },
+
+    aritGeo: function(arr){
+        if(!Array.isArray(arr)){
+            return "Invalid input! aritGeo accepts only an array as a parameter";
+        }else if(arr.length === 0){
+            return 0;
+        }else{
+            if(arr.length === 1){
+                return -1;
+            }else if(!checkArit(arr) && !checkGeo(arr)){
+                return -1;
+            }else if(checkArit(arr)){
+                return "Arithmetic";
+            }else{
+                return "Geometric";
+            }
+
+        }
+
+        function checkArit(a){
+            var len = a.length,
+                commonDiff = a[1] - a[0];
+            while(len >1){
+                if(a[len-1] - a[len-2] !== commonDiff){
+                    return false;
+                }
+                len--;
+            }
+            return true;
+        }
+
+        function checkGeo(a){
+            var len = a.length,
+                commonRatio = a[1] / a[0];
+            while(len >1){
+                if(a[len-1] / a[len-2] !== commonRatio){
+                    return false;
+                }
+                len--;
             }
             return true;
         }
