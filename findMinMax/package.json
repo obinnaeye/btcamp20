@@ -1,5 +1,5 @@
 {
-  "name": "bt20-clinic",
+  "name": "findminmax",
   "version": "1.0.0",
   "description": "My self clinic exercises",
   "main": "app/findMinMax.js",
