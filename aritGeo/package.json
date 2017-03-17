@@ -1,0 +1,22 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "My self clinic exercises",
+  "main": "app/aritGeo.js",
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinnaeye/bootcamp20.git"
+  },
+  "author": "Nnenanya Obinna K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obinnaeye/bootcamp20/issues"
+  },
+  "homepage": "https://github.com/obinnaeye/bootcamp20#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
