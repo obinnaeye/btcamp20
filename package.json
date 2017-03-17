@@ -2,7 +2,7 @@
   "name": "bt20-clinic",
   "version": "1.0.0",
   "description": "My self clinic exercises",
-  "main": "app/findMinMax.js",
+  "main": "index.js",
   "scripts": {
     "test": "jasmine tests/tests.js"
   },
